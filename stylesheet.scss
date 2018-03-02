@@ -1,0 +1,6 @@
+@import 'tokens.json';
+ 
+  
+.text-color-default {
+    color: map-get($text-color, regular);
+}
