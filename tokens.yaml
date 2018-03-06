@@ -41,7 +41,8 @@ text-color :
   on-dark : *color-white
   light : *color-pearl
   link : *color-ft-green
-  commercial : 
+
+text-color-commercial :
     default : *color-platinum
     header : *color-lapis-lazuli
     sub-header : *color-ft-blue

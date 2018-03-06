@@ -5,15 +5,15 @@
   background: map-get($container-color, dark);
 }
 .header1 {
-  color: map-get($text-color, header);
+  color: map-get($text-color-commercial, header);
   margin: 0 0 8px 0;
 }
 .header2 {
-  color: map-get($text-color, sub-header);
+  color: map-get($text-color-commercial, sub-header);
   margin: 0 0 8px 0;
 }
 .link {
-  color: map-get($text-color, link);
+  color: map-get($text-color-commercial, link);
 }
 .container {
   background: map-get($container-color, light);
