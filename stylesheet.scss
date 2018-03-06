@@ -1,6 +1,15 @@
 @import 'tokens.json';
  
-  
-.text-color-default {
-    color: map-get($text-color, regular);
+.header1 {
+  color: map-get($text-color, header);
+}
+.header2 {
+  color: map-get($text-color, sub-header);
+}
+.link {
+  color: map-get($text-color, link);
+}
+.container {
+    background: map-get($container-color, light);
+    border-radius: ($container-border-radius);
 }

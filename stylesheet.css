@@ -1,4 +1,14 @@
-.text-color-default {
-  color: #111111; }
+.header1 {
+  color: #20439D; }
+
+.header2 {
+  color: #0074C8; }
+
+.link {
+  color: #17A65F; }
+
+.container {
+  background: #F2F2F2;
+  border-radius: 3px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
