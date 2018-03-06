@@ -12,4 +12,5 @@
 .container {
     background: map-get($container-color, light);
     border-radius: ($container-border-radius);
+    padding: ($container-padding);
 }
