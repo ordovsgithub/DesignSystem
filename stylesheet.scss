@@ -5,15 +5,18 @@
 }
 .header1 {
   color: map-get($text-color, header);
+  margin: 0 0 8px 0;
 }
 .header2 {
   color: map-get($text-color, sub-header);
+  margin: 0 0 8px 0;
 }
 .link {
   color: map-get($text-color, link);
 }
 .container {
-    background: map-get($container-color, light);
-    border-radius: ($container-border-radius);
-    padding: ($container-padding);
+  background: map-get($container-color, light);
+  border-radius: ($container-border-radius);
+  padding: ($container-padding);
+  text-align: center;   
 }
