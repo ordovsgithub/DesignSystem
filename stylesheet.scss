@@ -2,6 +2,7 @@
  
 .body {
   font-family: 'Roboto', sans-serif;
+  background: map-get($container-color, dark);
 }
 .header1 {
   color: map-get($text-color, header);
