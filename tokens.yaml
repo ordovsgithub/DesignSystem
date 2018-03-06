@@ -1,39 +1,60 @@
-# Choices
+# Choices that can be used in #Decisions
+#----------------------------------------------------------
 
 color :
+  ft-blue: 
+    50  : &color-ft-blue-50 "#E4E9F2"
+    100 : &color-ft-blue-100 "#BBC8DF"
+    200 : &color-ft-blue-200 "#ADA4CA"
+    300 : &color-ft-blue-300 "#5F7FBA"
+    400 : &color-ft-blue-400 "#3D63A4"
+    500 : &color-ft-blue "#20439D"
+    600 : &color-ft-blue-600 "#18418C"
+    700 : &color-ft-blue-700 "#143881"
+    800 : &color-ft-blue-800 "#103077"
+    900 : &color-ft-blue-900 "#082165"
+  ft-green: &color-ft-green "#17A65F"
   white : &color-white "#FFFFFF"
-  black : &color-black "#000000"
-  neutral :
-    20 : &color-neutral-20 "#222222"
-    25 : &color-neutral-25 "#111111"
-    55 : &color-neutral-55 "#111111"
-    65 : &color-neutral-65 "#111111"
-    90 : &color-neutral-90 "#EEEEEE"
-  blue:
-    50: &color-blue-50 "#2196F3"
-    60: &color-blue-60 "#1E88E5"
-  # and many more...
-
+  azurite : &color-azurite "#0074C8"
+  lapis-lazuli : &color-lapis-lazuli "#061F5C"
+  platinum : &color-platinum "#56565A"
+  moonstone : &color-moonstone "#F2F2F2"
+  pearl : &color-pearl "#D7D7D7"
+ 
+  
+size :
+  xxs : &size-xxs "3px"
+  xs : &size-xs "8px"
+  s : &size-s "32px"
+  m : &size-m "64px"
+  l : &size-l "128px"
+  
 # Decisions
+#-------------------------------------------------------------------------
 
-interactive-color :
-  default: *color-blue-50
-  dark: *color-blue-60
-
-background-color :
-  default : *color-white
-  light : *color-neutral-90
-  dark : *color-neutral-20
-  disabled: *color-neutral-90
+#Typography
 
 text-color :
-  regular : *color-neutral-25
-  on-light : *color-neutral-25
+  default : *color-platinum
+  header : *color-ft-blue
+  sub-header : *color-azurite
   on-dark : *color-white
-  light : *color-neutral-55
-  disabled : *color-neutral-65
-  link :
-    default : *color-blue-50
+  light : *color-pearl
+  link : *color-ft-green
+
+text-color-commercial :
+    default : *color-platinum
+    header : *color-lapis-lazuli
+    sub-header : *color-ft-blue
     on-dark : *color-white
-    
-#icons    
+    light : *color-pearl
+    link : *color-ft-green
+
+#Layout 
+
+container-color :
+  light : *color-moonstone
+  dark : *color-platinum
+  
+container-border-radius : *size-xxs
+container-padding : *size-xs 
