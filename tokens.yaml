@@ -36,7 +36,7 @@ size :
 
 text-color :
   default : *color-platinum
-  header : *color-ft-blue
+  header : *color-azurite
   sub-header : *color-azurite
   on-dark : *color-white
   light : *color-pearl
